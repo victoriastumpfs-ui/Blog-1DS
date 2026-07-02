@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Yuyu&display=swap');    
+
+    :root{
+        --platina: #e7ecefff;
+        --azul-escuro: #274c77ff;
+        --azul-bebe: #6096baff;
+        --gelo: #a3cef1ff;
+        --titulo: "Geist Pixel", sans-serif;
+        --texto: "Yuyu", sans-serif;
+    }
+    body{
+        background: var(--platina);
+        font-family: var(--texto);
+    }
+    h1{
+        font-family: var(--titulo);
+    }
