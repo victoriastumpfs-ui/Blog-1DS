@@ -4,7 +4,7 @@
         --platina: #e7ecefff;
         --azul-escuro: #274c77ff;
         --azul-bebe: #6096baff;
-        --gelo: #a3cef1ff;
+        --gelo: rgb(0, 0, 0);
         --titulo: "Geist Pixel", sans-serif;
         --texto: "Yuyu", sans-serif;
     }
@@ -12,6 +12,9 @@
         background: var(--platina);
         font-family: var(--texto);
     }
-    h1{
-        font-family: var(--titulo);
+    header{
+        background: var(--azul-bebe);
+        display: flex;
+        justify-content: space-between;
+        color: var(--gelo)
     }
