@@ -33,7 +33,18 @@
         text-transform: uppercase;
         font-size: 14px;
     }
-    .img-capa{
-        width: 30px;
-        height: 30px;
+
+    .menu a{
+        text-decoration: none;
+        color: var(--gelo);
+        font-weight: bold;
+    }
+    .menu a:hover{
+        color: var(--platina);
+        transition: 0,5s;
+    }
+
+    .capa{
+        width: 1000px;
+        height: 1000px;
     }
