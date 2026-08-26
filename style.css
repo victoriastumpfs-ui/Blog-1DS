@@ -48,3 +48,22 @@
         width: 1000px;
         height: 1000px;
     }
+
+    .conteudo{
+        margin: 30px;
+        border: 2px solid var(--platina);
+        padding: 30px;
+        text-align: center;
+    }
+
+    .conteudo-titulo{
+        font-family: var(--titulo);
+        font-size: 24px;
+        padding-bottom: 20px;
+        color:var(--preto);
+    }
+
+    .conteudo-texto{
+        font-family: var(--texto);
+        font-size: 24px;
+    }
