@@ -22,8 +22,12 @@
         display: flex;
         justify-content: space-around;
         color: var(--gelo);
-        padding: 30PX;
+        padding: 20PX;
 
+    }
+    .logo{
+        width: 15%;
+        border-radius: 100%;
     }
     .menu{
         display: flex;
@@ -66,4 +70,13 @@
     .conteudo-texto{
         font-family: var(--texto);
         font-size: 24px;
+    }
+    
+    footer{
+        background-color: var(--azul-escuro);
+        color:var(--platina);
+        font-family:var(--titulo);
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
     }
